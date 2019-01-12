@@ -10,9 +10,6 @@ class ChattyStudent < Student
   def raise_hand
     super 
     puts "Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n"
-
-    it "returns the phrase 'Pick me!' ten times." do 
-      expect{chatty_student.raise_hand}.to output("Pick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\nPick me!\n").to_stdout
-    end
   end
+  
 end
